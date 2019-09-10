@@ -1,0 +1,66 @@
+/*
+splash.css
+Style for the kiosk splash page. Based on the DU visual guide document, linked below.
+https://www.du.edu/marcomm/assets/documents/du_visid_guidelines.pdf
+
+James Roan
+Created 02 July 2019
+*/
+
+
+html {
+	background-color: #F7F7F7;
+	font-family: "Trebuchet MS", sans-serif;
+	padding: 10px 10px;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+	width: 300px;
+}
+
+h1 {
+	color: #8B2332;
+	text-align: center;
+	font-size: 36px;
+}
+
+#header {
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: auto;
+}
+
+p {
+	color: black;
+}
+
+#buttons {
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: auto;
+}
+
+.button {
+	background-color: #8B2332;
+	color: #F7F7F7;
+	border: none;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	margin: 10px;
+}
+
+.button:hover {
+	background-color: #58001B;
+}
+
+.button:active {
+	color: #D5BA74;
+}
