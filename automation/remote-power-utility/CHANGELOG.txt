@@ -1,0 +1,10 @@
+Remote Power Utility
+CHANGELOG.txt
+
+29 June 2019 - James Roan
+    Initial Version
+
+1 July 2019 - James Roan
+    - Removed "Success." print.
+    - stdout of the ssh is now printed to stdout of TunePlay (cronjobs will be added to mail (/var/mail/TunePlay))
+    - Added shutdown-all.sh to TuneAndPlay's crontab.
